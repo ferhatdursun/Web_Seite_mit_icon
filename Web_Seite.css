@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    box-sizing: 0;
+    width: 100%;
+}
+
+
+header {
+    background-color: blueviolet;
+
+}
+
+.div_2 {
+    background-color: orange;
+    height: 5rem;
+    text-align: center;
+    padding-top: 3rem;
+    word-spacing: 3rem;
+    font-size: xx-large;
+    position: sticky;
+    /* Ekrani asagiya kaydirirken turuncu div'in üst kisimda sabit kalmasi icin. altda ki top ile birlikte.*/
+    top: 0rem;
+}
+
+.a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.a:hover {
+    color: white;
+}
+
+.register {
+    color: whitesmoke;
+    float: right;
+    position: absolute;
+    right: 1rem;
+    padding-right: 2rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    /* Kelimenin altinda ki cizgileri kaldirmak icin. */
+    font-size: x-large;
+    /* Kelimeleri büyütmek icin. */
+}
+
+.register:hover {
+    color: black;
+}
+
+.login {
+    color: white;
+    float: right;
+    right: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 8.5rem;
+    text-decoration: none;
+    font-size: x-large;
+    position: absolute;
+}
+
+.login:hover {
+    color: black;
+}
+
+span {
+    padding-right: 0.5rem;
+    font-size: x-large;
+}
+
+.logo_2 img {
+
+    /* position fixed ile asagida verdigim sag, sol, asagi komutlarinda sabitlendi. */
+    position: fixed;
+    left: 94vw;
+    /*vw ölcü birimini kullandigim dzaman icon ekran kenarlarda kücültülse bile sabit kaliyor. ama yukaridan asagiya kücültülürse sorun cikiyor. Ekr*/
+    bottom: 1vw;
+    width: 4vw;
+    height: 4vw;
+
+    /* slack sembolünün boyutunu büyütme kücültme */
+    padding: 0.5rem;
+    border-radius: 6vh;
+    /* etrafina yuvarlak görünüm kazandirma.*/
+}
+
+p {
+    margin: 7rem 1rem;
+}
